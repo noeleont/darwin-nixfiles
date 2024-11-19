@@ -27,6 +27,7 @@
     openssl
     opentofu
     poetry
+    python312
     ripgrep
     thefuck
     tmux
