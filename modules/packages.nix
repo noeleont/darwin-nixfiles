@@ -23,6 +23,7 @@
     kubectl
     kubernetes-helm
     nerdfonts
+    nixd
     nodejs
     openssl
     opentofu
