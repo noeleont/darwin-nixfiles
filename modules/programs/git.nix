@@ -1,7 +1,7 @@
 {
   enable = true;
-  userEmail = "matthias@bespinian.io";
-  userName = "Matthias Osswald";
+  userEmail = "noe@bespinian.io";
+  userName = "Noe Thalheim";
   ignores = [
     ".idea" ".vscode" ".DS_Store" ".envrc" "shell.nix" "*.swp" "*.swo"
     "nohup.out" "tags" "tags.lock" "tags.temp" ".direnv"

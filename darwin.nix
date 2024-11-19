@@ -1,4 +1,4 @@
-{ pkgs, ... }: 
+{ pkgs, ... }:
 
 {
   environment.systemPackages = [
@@ -20,8 +20,8 @@
 
   system.stateVersion = 4;
 
-  users.users.speedy = {
-    name = "speedy";
-    home = "/Users/speedy";
+  users.users.noeleon = {
+    name = "noeleon";
+    home = "/Users/noeleon";
   };
 }
