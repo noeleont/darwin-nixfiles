@@ -1,10 +1,9 @@
+{ config }:
 {
   enable = true;
 
   extraConfig = ''
     Host *
-        UseKeychain yes
-        AddKeysToAgent yes
-        IdentityFile ~/.ssh/id_rsa
+        IdentityAgent ${config.home.homeDirectory}/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
   '';
 }

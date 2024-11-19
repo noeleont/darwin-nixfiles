@@ -14,6 +14,10 @@ cd ~/nixfiles
 make [ help | rebuild | update | clean ]
 ```
 
+## Secretive
+
+The ssh config expects [Secretive](https://github.com/maxgoedjen/secretive) to be installed.
+
 ## Direnv issue
 
 ```bash
