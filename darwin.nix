@@ -21,11 +21,22 @@
 
   programs.zsh.enable = true;
 
-  system.stateVersion = 4;
-  system.keyboard = {
-    enableKeyMapping = true;
-    remapCapsLockToEscape = true;
+  system = {
+    stateVersion = 4;
+
+    defaults = {
+      dock = {
+        autohide = true;
+        orientation = "left";
+      };
+    };
+
+    keyboard = {
+        enableKeyMapping = true;
+        remapCapsLockToEscape = true;
+    };
   };
+
 
   users.users.noeleon = {
     name = "noeleon";
