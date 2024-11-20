@@ -22,6 +22,10 @@
   programs.zsh.enable = true;
 
   system.stateVersion = 4;
+  system.keyboard = {
+    enableKeyMapping = true;
+    remapCapsLockToEscape = true;
+  };
 
   users.users.noeleon = {
     name = "noeleon";
