@@ -1,8 +1,11 @@
 { pkgs, ... }:
 
 {
-  environment.systemPackages = [
+  imports = [
+    ./modules/homebrew.nix
   ];
+
+  environment.systemPackages = [ ];
 
   services.nix-daemon.enable = true;
 
