@@ -8,8 +8,11 @@
         "secretive"
         "orbstack"
         "little-snitch"
+        "zed"
+
         "google-chrome"
         "webstorm"
+        "slack"
     ];
   };
 }

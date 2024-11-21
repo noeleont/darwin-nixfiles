@@ -29,6 +29,9 @@
         autohide = true;
         orientation = "left";
       };
+      WindowManager = {
+        GloballyEnabled = true;
+      };
     };
 
     keyboard = {
