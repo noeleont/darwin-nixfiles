@@ -12,16 +12,16 @@
     file
     fzf
     gcc
-    gimp
     gnumake
     gnupg
     go
     gopls
     jq
     k9s
-    keepassxc
+    kind
     kubectl
     kubernetes-helm
+    minikube
     nerdfonts
     nixd
     nodejs

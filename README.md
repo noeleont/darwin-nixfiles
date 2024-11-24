@@ -17,14 +17,7 @@ brew is used to install GUI apps that are not available via nix packags, e.g.  `
 ## Setup
 
 ```bash
-git clone git@github.com:busykoala/darwin-nixfiles.git ~/nixfiles
+git clone https://github.com:noeleont/darwin-nixfiles.git ~/nixfiles
 cd ~/nixfiles
 make [ help | rebuild | update | clean ]
-```
-
-## Direnv issue
-
-```bash
-sudo -i nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
-sudo -i nix-channel --update nixpkgs
 ```

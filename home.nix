@@ -6,7 +6,7 @@
     (import ./modules/packages.nix { inherit pkgs; })
   ];
 
-  home.stateVersion = "23.05";
+  home.stateVersion = "24.11";
   home.file = {};
   home.sessionVariables = {};
 

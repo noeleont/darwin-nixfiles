@@ -23,6 +23,19 @@
           }
         ];
       };
+      # Fix . naming
+      AirBook = darwin.lib.darwinSystem {
+        system = "aarch64-darwin";
+        modules = [
+          ./darwin.nix
+          home-manager.darwinModules.home-manager
+          {
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.users.noeleon = import ./home.nix;
+          }
+        ];
+      };
     };
   };
 }
