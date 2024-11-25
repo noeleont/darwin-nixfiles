@@ -1,6 +1,6 @@
 {
   enable = true;
-  userEmail = "noe@bespinian.io";
+  userEmail = "noe@thalheim.email";
   userName = "Noe Thalheim";
   ignores = [
     ".idea" ".vscode" ".DS_Store" ".envrc" "shell.nix" "*.swp" "*.swo"
@@ -21,9 +21,9 @@
     gpg = {
       program = "gpg";
     };
-    commit = {
-      gpgSign = true;
-    };
+    # commit = {
+    #   gpgSign = true;
+    # };
   };
   lfs.enable = true;
 }

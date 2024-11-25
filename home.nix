@@ -19,5 +19,8 @@
     direnv = import ./modules/programs/direnv.nix;
     ssh = import ./modules/programs/ssh.nix { inherit config; };
     gpg = import ./modules/programs/gpg.nix;
+    # TODO: homebrew version?
+    # https://nix-community.github.io/home-manager/options.xhtml#opt-programs.zed-editor.extensions
+    # zed-editor = import ./modules/programs/zed.nix;
   };
 }

@@ -38,6 +38,10 @@
       WindowManager = {
         GloballyEnabled = true;
       };
+      # TODO: fix plist refrence
+      # https://developer.apple.com/documentation/devicemanagement/accessibility
+      # controlcenter.Sound = true;
+      # universalaccess.reduceMotion = true;
     };
 
     keyboard = {
