@@ -38,6 +38,7 @@
       WindowManager = {
         GloballyEnabled = true;
       };
+      NSGlobalDomain.NSAutomaticSpellingCorrectionEnabled = false;
     };
 
     keyboard = {
