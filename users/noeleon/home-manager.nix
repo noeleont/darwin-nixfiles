@@ -78,6 +78,7 @@ in {
     LANG = "en_US.UTF-8";
     LC_CTYPE = "en_US.UTF-8";
     LC_ALL = "en_US.UTF-8";
+    # TODO: VAR
     EDITOR = "zed";
     PAGER = "less -FirSwX";
     MANPAGER = "${manpager}/bin/manpager";
@@ -87,6 +88,7 @@ in {
   # Programs
   #---------------------------------------------------------------------
 
+  # TODO: VAR
   programs.gpg.enable = true;
 
   programs.zsh = {
@@ -127,6 +129,7 @@ in {
     nix-direnv.enable = true;
   };
 
+  # TODO: var
   programs.git = {
     enable = true;
     userName = "Noe Thalheim";
