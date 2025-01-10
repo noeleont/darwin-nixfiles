@@ -12,4 +12,5 @@
     ];
     theme = "agnoster";
   };
+  enableCompletion = true;
 }
