@@ -43,7 +43,7 @@
 
     keyboard = {
         enableKeyMapping = true;
-        remapCapsLockToEscape = true;
+        remapCapsLockToControl = true;
     };
   };
 
