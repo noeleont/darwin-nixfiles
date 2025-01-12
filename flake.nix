@@ -7,13 +7,19 @@
     darwin.inputs.nixpkgs.follows = "nixpkgs";
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
+    nvim-pkg.url = "github:noeleont/nvim.nix";
   };
 
-  outputs = inputs@{ nixpkgs, home-manager, darwin, ... }: {
+  outputs = inputs@{ nixpkgs, home-manager, darwin, nvim-pkg, ... }: {
     darwinConfigurations = {
       CloudBook = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
         modules = [
+          {
+            nixpkgs.overlays = [
+	      nvim-pkg.overlays.default
+            ];
+          }
           ./darwin.nix
           home-manager.darwinModules.home-manager
           {
@@ -27,6 +33,11 @@
       AirBook = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
         modules = [
+          {
+            nixpkgs.overlays = [
+	      nvim-pkg.overlays.default
+            ];
+          }
           ./darwin.nix
           home-manager.darwinModules.home-manager
           {

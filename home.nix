@@ -13,7 +13,6 @@
   programs = {
     home-manager.enable = true;
     git = import ./modules/programs/git.nix;
-    neovim = import ./modules/programs/neovim.nix { inherit pkgs; };
     tmux = import ./modules/programs/tmux.nix;
     zsh = import ./modules/programs/zsh.nix;
     direnv = import ./modules/programs/direnv.nix;

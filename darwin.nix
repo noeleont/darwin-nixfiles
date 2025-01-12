@@ -5,7 +5,7 @@
     ./modules/homebrew.nix
   ];
 
-  environment.systemPackages = [ ];
+  environment.systemPackages = [ pkgs.nvim-pkg ];
 
   services.nix-daemon.enable = true;
 
