@@ -9,7 +9,7 @@
   extraConfig = {
     core = {
       pager = "delta --line-numbers --dark --side-by-side";
-      editor = "zed --wait";
+      editor = "vim";
       whitespace = "fix,-indent-with-non-tab,trailing-space,cr-at-eol";
     };
     format = {
