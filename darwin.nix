@@ -28,15 +28,7 @@
       dock = {
         autohide = true;
         orientation = "left";
-        persistent-apps = [
-          "/Applications/Safari.app"
-          "/System/Applications/Mail.app"
-          "/Applications/Zed.app"
-        ];
         show-recents = false;
-      };
-      WindowManager = {
-        GloballyEnabled = true;
       };
       NSGlobalDomain.NSAutomaticSpellingCorrectionEnabled = false;
     };
