@@ -18,5 +18,6 @@
     direnv = import ./modules/programs/direnv.nix;
     ssh = import ./modules/programs/ssh.nix { inherit config; };
     gpg = import ./modules/programs/gpg.nix;
+    go = import ./modules/programs/go.nix;
   };
 }

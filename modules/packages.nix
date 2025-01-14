@@ -14,7 +14,6 @@
     gcc
     gnumake
     gnupg
-    go
     gopls
     jq
     k9s
