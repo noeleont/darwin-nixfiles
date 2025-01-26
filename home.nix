@@ -8,7 +8,9 @@
 
   home.stateVersion = "24.11";
   home.file = {};
-  home.sessionVariables = {};
+  home.sessionVariables = {
+    EDITOR = "vim";
+  };
 
   programs = {
     home-manager.enable = true;
