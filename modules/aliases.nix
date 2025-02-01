@@ -10,7 +10,8 @@
     grep = "grep --color";
     tf = "tofu";
     k = "kubectl";
-    la = "exa -hal";
+    ls = "exa -hal";
+    less = "glow -p";
 
     ".." = "cd ..";
     "..." = "cd ../..";

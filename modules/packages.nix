@@ -12,6 +12,7 @@
     file
     fzf
     gcc
+    glow
     gnumake
     gnupg
     gopls
@@ -37,6 +38,7 @@
     wget
     whois
     yarn
+    zellij
     zip
   ];
 }
